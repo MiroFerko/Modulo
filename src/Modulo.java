@@ -8,13 +8,12 @@ public class Modulo {
             //test if i is prime
             for (int j = 2; j <= i / 2; j++) {
 
-                //check for division remainder
+                //check for remainder
                 if (i % j == 0) {
                     divisorFound = true;
                     break;
                 }
             }
-
             //if theres no more divisor print result
             if (!divisorFound) {
                 System.out.println("Found prime number : " + i);
