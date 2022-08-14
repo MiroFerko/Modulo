@@ -3,7 +3,6 @@ public class Modulo {
     public static void main(String[] args) {
         //loop for all numbers up to 50
         for (int i = 1; i <= 50; i++) {
-
             boolean divisorFound = false;
             //test if i is prime
             for (int j = 2; j <= i / 2; j++) {
