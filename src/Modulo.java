@@ -6,7 +6,7 @@ public class Modulo {
             boolean divisorFound = false;
             //test if i is prime
             for (int j = 2; j <= i / 2; j++) {
-
+47
                 //check for remainder
                 if (i % j == 0) {
                     divisorFound = true;
