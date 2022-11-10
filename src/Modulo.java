@@ -13,6 +13,7 @@ public class Modulo {
                     break;
                 }
             }
+
             //if theres no more divisor print result
             if (!divisorFound) {
                 System.out.println("Found prime number : " + i);
