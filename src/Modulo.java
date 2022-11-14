@@ -9,6 +9,7 @@ public class Modulo {
 
 
 
+
                 //check for remainder
                 if (i % j == 0) {
                     divisorFound = true;
